@@ -1,0 +1,51 @@
+
+/* Base style for the XML root */
+students {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #080808;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+student {
+    display: block;
+    margin: 15px 0;
+    padding: 15px 20px;
+    border: 2px solid #05456a;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+student:hover {
+    background-color: #e1f5fe;
+    transform: scale(1.01);
+    border-color: #033855;
+}
+
+id, name, age, department, email {
+    display: block;
+    font-weight: bold;
+    color: #042b49;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+id::before {
+    content: "🆔 ID: ";
+}
+name::before {
+    content: "👤 Name: ";
+}
+age::before {
+    content: "🎂 Age: ";
+}
+department::before {
+    content: "🏫 Dept: ";
+}
+email::before {
+    content: "📧 Email: ";
+
+}

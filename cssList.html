@@ -1,0 +1,148 @@
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #fefefe, #e0f7fa);
+      color: #333;
+      padding: 30px 20px;
+      min-height: 100vh;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0d47a1;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .content {
+      max-width: 850px;
+      margin: auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #00796b;
+      font-weight: bold;
+    }
+
+    ol, ul, dl {
+      margin-left: 30px;
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    ol ol, ul ul {
+      margin-left: 25px;
+    }
+
+    li::marker {
+      color: #ff5722;
+      font-weight: bold;
+    }
+
+    dt {
+      font-weight: bold;
+      color: #0288d1;
+      margin-top: 10px;
+    }
+
+    dd {
+      margin-left: 20px;
+      color: #555;
+    }
+
+    ul[type="circle"] li::marker {
+      color: #7b1fa2;
+    }
+
+    ul[type="square"] li::marker {
+      color: #d32f2f;
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 20px;
+      }
+      p, li, dd, dt {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Assignment No 4<br><br>Roll No.124</h2>
+
+  <div class="content">
+    <h2>List Tags</h2>
+
+    <p>An Ordered List</p>
+    <ol>
+      <li>Item1
+        <ol type="a">
+          <li>1st Item</li>
+          <li>2nd Item</li>
+          <li>3rd Item</li>
+        </ol>
+      </li>
+      <li>Item2</li>
+      <li>Item3
+        <ol type="A">
+          <li>Item</li>
+          <li>Item</li>
+        </ol>
+      </li>
+      <li>Item4</li>
+    </ol>
+
+    <p>An Unordered List</p>
+    <ul>
+      <li>First Item
+        <ul type="square">
+          <li>1st Item</li>
+        </ul>
+      </li>
+      <li>Second Item
+        <ul type="circle">
+          <li>1st Item</li>
+          <li>2nd Item</li>
+          <li>3rd Item</li>
+        </ul>
+      </li>
+      <li>Third Item</li>
+      <li>Fourth Item
+        <ul type="square">
+          <li>1st Item</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>A Definition List</p>
+    <dl>
+      <dt>Tea</dt>
+      <dd>- Green Tea</dd>
+      <dd>- Black Tea</dd>
+    </dl>
+
+  </div>
+
+</body>
+</html>

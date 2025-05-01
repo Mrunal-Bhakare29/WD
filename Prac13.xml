@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Prac12.xsl"?>
+<students>
+  <student>
+    <name>Rahul</name>
+    <rollno>101</rollno>
+    <marks>85</marks>
+  </student>
+  <student>
+    <name>Priya</name>
+    <rollno>102</rollno>
+    <marks>45</marks>
+  </student>
+  <student>
+    <name>Amit</name>
+    <rollno>103</rollno>
+    <marks>60</marks>
+  </student>
+</students>
